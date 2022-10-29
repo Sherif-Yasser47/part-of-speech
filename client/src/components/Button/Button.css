@@ -1,0 +1,32 @@
+.btn {
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  background-color: rgb(28, 184, 240);
+  color: white;
+  border-radius: 8px;
+  margin-inline: 10px;
+}
+
+.btn:hover {
+  opacity: .8;
+}
+
+.success {
+  background-color: green;
+  color: white;
+}
+
+.danger {
+  background-color: red;
+  color: white;
+}
+
+.disabled {
+  cursor: default;
+}
+
+.disabled:hover {
+  opacity: 1;
+}
