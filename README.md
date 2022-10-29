@@ -1,15 +1,15 @@
-## Application Description
+# Application Description
 
 This is a system that enables end-users to practice a set of 10 randomly returned questions, each question is being displayed as a word and four choices of POS, and check if the answer is correct according to the word POS or not.
 
-# The server-side is being developed using NodeJS and ExpressJS for maintaing a web server that serve client requests.
+### The server-side is being developed using NodeJS and ExpressJS for maintaing a web server that serve client requests.
 
-# The client-side is being developed using ReactJS, axios for sending http requests.
+### The client-side is being developed using ReactJS, axios for sending http requests.
 
-# The TestData.json file stored in the root directory will be considered the data (wordsList, scoresList) persistent storage.
+### The TestData.json file stored in the root directory will be considered the data (wordsList, scoresList) persistent storage.
 
 
-## Install and Run the application
+# Install and Run the application
 
 1) Server-Side App:
   At the root directory of the project Run `npm install` inorder to install all required modules for Backend.
@@ -23,7 +23,7 @@ This is a system that enables end-users to practice a set of 10 randomly returne
    Then run `npm start` to launch the React application in development mode.
    Open [http://localhost:3000] to view it in the browser.
 
-## App Activity
+# App Activity
  
 1) Sending a GET request to the `/api/words` to get the list of 10 random words from wordsList where at least 1 adjective, 1 adverb, 1 noun, and 1 verb.
 
