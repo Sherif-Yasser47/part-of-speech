@@ -1,4 +1,3 @@
-const fs = require('fs/promises');
 const router = require('express').Router();
 const fileReader = require('../middleware/fileReader');
 
